@@ -1,0 +1,109 @@
+.root{
+     background-image: url("https://wallpapersflix.com/wp-content/uploads/2020/07/Hacker-Computer-Wallpaper-4k-1.jpg");
+    --body-color: rgb(236, 234, 234);
+    --primary-color: #117;
+     
+     
+    ---secondary-color: rgb(23, 3, 3); 
+}   
+
+html,body {
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(69deg, #9ba0c1, rgb(33, 91, 89));
+    background-image: url("https://wallpapersflix.com/wp-content/uploads/2020/07/Hacker-Computer-Wallpaper-4k-1.jpg");
+    
+    
+    color: var(---secondary-color);
+    overflow: hidden;
+}
+
+.container-2 {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+.container-1,
+.container-3 {
+    width: 100%;
+    display: grid;
+
+    justify-content: center;
+}
+
+.container-1 {
+
+    align-items: flex-start;
+}
+
+.container-3 {
+
+    align-items: flex-end;
+}
+
+#canvasKesayanganKu {
+    width: auto;
+    height: auto;
+    transform: skewX(0deg);
+    position: relative;
+    /*  top: -1;
+    right: 0;
+     justify-content: center;
+       text-align: center;
+    align-items: center;
+    bottom: 0;
+    left: 0;
+    */
+    border: 5px #b9d80c double;
+    padding-left: 25rem;
+
+}
+
+/*
+.main {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    position: relative;
+}*/
+
+h1 {
+    font-family: 'Noto Sans Buhid', sans-serif;
+    text-align: justify;
+}
+
+.name,
+.nrp {
+    position: absolute;
+    border-radius: 0%;
+    border-left: #83a114 double;
+    border-right: #83a114 double;
+    border-bottom: #83a114 5px double;
+    border-top: #83a114 2px solid;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.name {
+    text-align: match-parent;
+    top: 5rem;
+    left: 15rem;
+    z-index: 10;
+    color: #53eb0c;
+}
+
+.nrp {
+    text-align: right;
+    top: 12rem;
+    /* right: inherit;: 15rem; */
+    left: 15rem; 
+    z-index: 10;
+}
+
+.nrp h2 {
+    color: #53eb0c;
+} 
